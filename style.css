@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    color: #0984e3;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.controls {
+    margin: 2rem 0;
+}
+
+button {
+    background: #0984e3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0770c2;
+}
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.status {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.water-count {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #e3f2fd;
+    border-radius: 10px;
+}
+
+.water-count h3 {
+    color: #0984e3;
+    margin-bottom: 1rem;
+}
+
+#waterCount {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0984e3;
+}
+
+#drankBtn {
+    background: #00b894;
+    margin-top: 1rem;
+}
+
+#drankBtn:hover {
+    background: #00a085;
+}
